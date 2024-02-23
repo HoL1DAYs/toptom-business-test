@@ -31,10 +31,9 @@ const favorites = [
 ]
 </script>
 
-<template >
+<template>
   <ul class="favorites-list">
     <ProductsCard class="favorites-list--item" v-for="(item, index) of favorites" :key="index" :data="item">
-
     </ProductsCard>
   </ul>
 </template>

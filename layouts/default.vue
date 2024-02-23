@@ -8,6 +8,8 @@
 
 <style lang="scss" scoped>
 .default {
+  display: flex;
+  justify-content: space-between;
   width: 100vw;
   height: 100vh;
   background: #F0F0F0;

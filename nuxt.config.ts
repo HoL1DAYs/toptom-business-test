@@ -5,7 +5,9 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt'
   ],
-
+  devServer: {
+    proxy: "https://qqfnjewfbgdqnkqncqefberqlfjnjqefnqervnklqfewf.toptom.kz"
+  },
   runtimeConfig: {
     turnstile: {
       secretKey: '0x4AAAAAAAJs1mlCddUvC8fIATuSaAqI-Fc'
@@ -15,5 +17,4 @@ export default defineNuxtConfig({
       apiBase: 'https://qqfnjewfbgdqnkqncqefberqlfjnjqefnqervnklqfewf.toptom.kz/',
     }
   },
-
 })

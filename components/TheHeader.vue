@@ -4,6 +4,7 @@
     <NuxtLink href="favorites">
       <h2 class="header-favorites">Избранное</h2>
     </NuxtLink>
+    <NuxtLink href="authorization/login">Войти/Зарегистрироваться</NuxtLink>
   </header>
 </template>
 

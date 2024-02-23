@@ -8,6 +8,10 @@ const addFavorite = () => {
   console.log('clicked')
 }
 
+const removeFavorite = () => {
+  console.log('unclick')
+}
+
 </script>
 
 <template>
